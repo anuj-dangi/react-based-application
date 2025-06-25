@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-import First from "./components/First.jsx";
+import Card from "./components/Card.jsx";
 
 function App() {
 
   return (
-    <First/>
+    <>
+      <Card />
+    </>
   )
 }
 
-export default App
+export default App;
