@@ -20,5 +20,7 @@
 .card-button{
     padding:8px;
     width:5rem;
-    border-radius: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: lightblue;
 }
