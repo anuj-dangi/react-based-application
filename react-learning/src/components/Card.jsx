@@ -7,7 +7,7 @@ function Card()
     const [ show, setShowState ] = useState(true);
     return(
         <div>
-            <button type="button" onClick={() => {setShowState(!show)}}>{show ? "hide" : "show"}</button>
+            <button type="button" onClick={() => {setShowState(!show)}} className="card-button">{show ? "hide" : "show"}</button>
             <div className={`card ${show ? '' : 'hidden'}`}>
                 <img src={Image} alt="profile-pic" className="card-pic"></img>
                 <h2>Anuj Dangi</h2>
