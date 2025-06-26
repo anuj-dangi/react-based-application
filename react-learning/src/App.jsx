@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
-import Conditional from './components/Conditional.jsx';
+import List from "./components/List.jsx";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <>
-      <button type="button" onClick={() => {setIsLoggedIn(!isLoggedIn)}}>{isLoggedIn ? "logout" : "login"}</button>
-      <Conditional isLoggedIn={isLoggedIn} username="nuclear"/>
+      <List />
     </>
   )
 }
