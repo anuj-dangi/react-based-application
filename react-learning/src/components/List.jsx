@@ -1,3 +1,4 @@
+import { Waypoints } from 'lucide-react';
 import React from 'react'
 
 const List = () => {
@@ -8,6 +9,16 @@ const List = () => {
     )
   return (
     <ul>{listItems}</ul>
+    // Another Way
+    // <div>
+    //   {
+    //     fruits.map((fruit, idx) => (
+    //       <div
+    //         id={idx}
+    //       >{fruit}</div>
+    //     ))
+    //   }
+    // </div>
   )
 };
 
